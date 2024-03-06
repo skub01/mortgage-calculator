@@ -2,9 +2,9 @@ import React from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import Navbar from "./Components/Navbar";
-/* import Result from "./Components/Result";
+import Result from "./Components/Result";
 import SliderSelect from "./Components/SliderSelect";
-import TenureSelect from "./Components/TenureSelect"; */
+import TenureSelect from "./Components/TenureSelect";
 
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
     <Container maxWidth="xl" sx={{marginTop:4}}>
       <Grid container spacing={5} alignItems="center">
         <Grid item xs={12} md={6}>
-     {/*      <SliderSelect />
-          <TenureSelect /> */}
+          <SliderSelect />
+          <TenureSelect /> 
         </Grid>
         <Grid item xs={12} md={6}>
-         {/*  <Result/> */}
+          <Result/> 
         </Grid>
       </Grid>
     </Container>
